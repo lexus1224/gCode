@@ -5,26 +5,30 @@
     <meta name="viewport"
           content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
     <title>手势密码</title>
-    <link rel="stylesheet" href="css/combined-4b4ef04426.css">
+    <link rel="stylesheet" href="css/combined-552e561160.css">
 </head>
 <body>
 <header>
-    <h2>手势密码</h2>
+    <h3>手势密码</h3>
 </header>
-<div id="canvasDiv">
-    <canvas id="myCanvas"></canvas>
+<div class="container">
+    <div id="canvasDiv">
+        <canvas id="myCanvas"></canvas>
+    </div>
+    <p id="myInfo">请输入手势密码</p>
+    <div id="statusDiv">
+        <ul>
+            <li>
+                <input class="radio" name="set_verify" id="set" type="radio" value="set" checked="checked"><label
+                    for="set">设置密码</label>
+            </li>
+            <li>
+                <input class="radio" name="set_verify" id="verify" type="radio" value="verify"><label
+                    for="set">验证密码</label>
+            </li>
+        </ul>
+    </div>
 </div>
-<p id="myInfo">请输入手势密码</p>
-<div id="statusDiv">
-    <ul>
-        <li>
-            <input class="radio" name="set_verify" id="set" type="radio" value="set" checked="checked"><label for="set">设置密码</label>
-        </li>
-        <li>
-            <input class="radio" name="set_verify" id="verify" type="radio" value="verify"><label for="set">验证密码</label>
-        </li>
-    </ul>
-</div>
-<script src="js/combined-212d368acd.js"></script>
+<script src="js/combined-a356a800a8.js"></script>
 </body>
 </html>
